@@ -60,6 +60,7 @@
 */
 
 using GrblPlotter.GUI;
+using Microsoft.AspNetCore.SignalR.Client;
 using Microsoft.Win32;
 using System;
 using System.Drawing;
@@ -67,6 +68,7 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Threading;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 using virtualJoystick;
 
@@ -75,6 +77,8 @@ namespace GrblPlotter
 {
     public partial class MainForm : Form
     {
+        public static MainForm m_mainForm;
+
         ControlSerialForm _serial_form = null;
         Splashscreen _splashscreen = null;
 
@@ -119,12 +123,17 @@ namespace GrblPlotter
 
             GetAppDataPath();           // find AppDataPath
 
-            CultureInfo ci = new CultureInfo(Properties.Settings.Default.guiLanguage);
+            iniciaSignalR();            //  conecta ao SignalR do VPXbras..
+
+            CultureInfo ci0 = new CultureInfo(Properties.Settings.Default.guiLanguage);
             Localization.UpdateLanguage(Properties.Settings.Default.guiLanguage);
+            Thread.CurrentThread.CurrentCulture = ci0;
+            Thread.CurrentThread.CurrentUICulture = ci0;
+
+            CultureInfo ci = new CultureInfo("en");
+            Logger.Info(culture, "###### START GRBL-Plotter Ver. {0}  Language: {1}   OS: {2} ######", Application.ProductVersion, ci, System.Environment.OSVersion);
             Thread.CurrentThread.CurrentCulture = ci;
             Thread.CurrentThread.CurrentUICulture = ci;
-
-            Logger.Info(culture, "###### START GRBL-Plotter Ver. {0}  Language: {1}   OS: {2} ######", Application.ProductVersion, ci, System.Environment.OSVersion);
             Logger.Info("Info {0}", Properties.Settings.Default.guiLastEndReason);
             EventCollector.Init();
             UpdateLogging();            // set logging flags
@@ -199,6 +208,54 @@ namespace GrblPlotter
 
             if (Properties.Settings.Default.guiExtendedLoggingEnabled || Properties.Settings.Default.guiExtendedLoggingCOMEnabled)
                 StatusStripSet(0, "Logging enabled", Color.Yellow);
+        }
+
+        Microsoft.AspNetCore.SignalR.Client.HubConnection connection;
+        private async void  iniciaSignalR()
+        {
+            m_mainForm = this;
+            Logger.Info(culture, "try connect SignalR");
+            string url = "http://localhost:59611/signalrdemohub";
+//            url = "http://vpxbrasil.kinghost.net/edward_backend/signalrdemohub";
+            connection = new HubConnectionBuilder()
+                .WithUrl(url)
+                .Build();
+            connection.Closed += async (error) =>
+            {
+                await Task.Delay(new Random().Next(0, 5) * 1000);
+                await connection.StartAsync();
+            };
+            connection.On<string>("VeiculoMessage", (msg) => { 
+                Logger.Info(culture, $"VeiculoChanged {msg}"); writeToFormTitle(msg);
+                m_mainForm.WindowState = FormWindowState.Normal;
+            });
+            connection.On<string>("ConfigureMessage", (msg) => { 
+                Logger.Info(culture, $"ConfigureMessage {msg}");
+                m_mainForm.WindowState = FormWindowState.Minimized;
+            });
+            connection.On<string>("WakeupMessage", (msg) => { 
+                Logger.Info(culture, $"WakeupMessage {msg}");
+                m_mainForm.WindowState = FormWindowState.Normal;
+            });
+            try 
+            {
+                await connection.StartAsync();
+            }
+            catch(Exception ex)
+            {
+                Logger.Info(culture, $"VeiculoChanged {ex.Message}");
+                writeToFormTitle("Ero>> " + ex.Message);
+            }
+            
+            Logger.Info(culture, "SignalR connected");
+        }
+
+        private void writeToFormTitle(string log)
+        {
+            if (this.InvokeRequired)
+                this.BeginInvoke(new Action(() => this.Text = log ));
+            else
+                this.Text = log;
         }
 
         // initialize Main form

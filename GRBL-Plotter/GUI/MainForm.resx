@@ -133,8 +133,11 @@
     <value>1</value>
   </data>
   <data name="fCTBCode.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing">
-    <value>191, 12</value>
+    <value>214, 12</value>
   </data>
+  <metadata name="cmsFCTB.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>123, 56</value>
+  </metadata>
   <data name="unDo3ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>221, 22</value>
   </data>
@@ -152,49 +155,42 @@
   </data>
   <data name="cmsEditorHotkeys.Text" xml:space="preserve">
     <value>Show Editor hotkeys</value>
-    <comment>Editor_Menu</comment>
   </data>
   <data name="toolStripSeparator19.Size" type="System.Drawing.Size, System.Drawing">
     <value>218, 6</value>
   </data>
   <data name="cmsCodeBlocksFold.AccessibleDescription" xml:space="preserve">
     <value>Code Blocks are G-Code surrounded by XML-Elements like "Group" of "Figure"</value>
-    <comment>Editor_Menu</comment>
   </data>
   <data name="foldCodeBlocks1stLevelToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 22</value>
   </data>
   <data name="foldCodeBlocks1stLevelToolStripMenuItem.Text" xml:space="preserve">
     <value>Fold code blocks 1st level</value>
-    <comment>Editor_Menu</comment>
   </data>
   <data name="foldCodeBlocks2ndLevelToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 22</value>
   </data>
   <data name="foldCodeBlocks2ndLevelToolStripMenuItem.Text" xml:space="preserve">
     <value>Fold code blocks 2nd level</value>
-    <comment>Editor_Menu</comment>
   </data>
   <data name="foldCodeBlocks3rdLevelToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 22</value>
   </data>
   <data name="foldCodeBlocks3rdLevelToolStripMenuItem.Text" xml:space="preserve">
     <value>Fold code blocks 3rd level</value>
-    <comment>Editor_Menu</comment>
   </data>
   <data name="expandCodeBlocksToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 22</value>
   </data>
   <data name="expandCodeBlocksToolStripMenuItem1.Text" xml:space="preserve">
     <value>Expand code blocks</value>
-    <comment>Editor_Menu</comment>
   </data>
   <data name="toggleBlockExpansionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 22</value>
   </data>
   <data name="toggleBlockExpansionToolStripMenuItem.Text" xml:space="preserve">
     <value>Automatic block folding</value>
-    <comment>Editor_Menu</comment>
   </data>
   <data name="cmsCodeBlocksFold.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -204,11 +200,9 @@
   </data>
   <data name="cmsCodeBlocksFold.Text" xml:space="preserve">
     <value>Fold Code Blocks</value>
-    <comment>Editor_Menu</comment>
   </data>
   <data name="cmsCodeBlocksMove.AccessibleDescription" xml:space="preserve">
     <value>Code Blocks are G-Code surrounded by XML-Elements like "Group" of "Figure"</value>
-    <comment>Editor_Menu</comment>
   </data>
   <data name="cmsFCTBMoveSelectedCodeBlockMostUp.Size" type="System.Drawing.Size, System.Drawing">
     <value>274, 22</value>
@@ -365,7 +359,6 @@
   </data>
   <data name="cmsCodeSelect.Text" xml:space="preserve">
     <value>Select All</value>
-    <comment>Editor_Menu</comment>
   </data>
   <data name="cmsCodeCopy.AccessibleDescription" xml:space="preserve">
     <value>Copy selection to clipboard</value>
@@ -375,7 +368,6 @@
   </data>
   <data name="cmsCodeCopy.Text" xml:space="preserve">
     <value>Copy to clipboard</value>
-    <comment>Editor_Menu</comment>
   </data>
   <data name="cmsCodePaste.AccessibleDescription" xml:space="preserve">
     <value>Clear editor and paste from clipboard</value>
@@ -385,7 +377,6 @@
   </data>
   <data name="cmsCodePaste.Text" xml:space="preserve">
     <value>Paste from clipboard</value>
-    <comment>Editor_Menu</comment>
   </data>
   <data name="cmsCodePasteSpecial1.AccessibleDescription" xml:space="preserve">
     <value>Insert "Pen up" G-Code in front of current line</value>
@@ -395,7 +386,6 @@
   </data>
   <data name="cmsCodePasteSpecial1.Text" xml:space="preserve">
     <value>Insert 'PenUp'</value>
-    <comment>Editor_Menu</comment>
   </data>
   <data name="cmsCodePasteSpecial2.AccessibleDescription" xml:space="preserve">
     <value>Insert "Pen down" G-Code in front of current line</value>
@@ -405,7 +395,6 @@
   </data>
   <data name="cmsCodePasteSpecial2.Text" xml:space="preserve">
     <value>Insert 'PenDown'</value>
-    <comment>Editor_Menu</comment>
   </data>
   <data name="toolStripSeparator14.Size" type="System.Drawing.Size, System.Drawing">
     <value>218, 6</value>
@@ -418,7 +407,6 @@
   </data>
   <data name="cmsFindDialog.Text" xml:space="preserve">
     <value>Find Dialog</value>
-    <comment>Editor_Menu</comment>
   </data>
   <data name="cmsReplaceDialog.AccessibleDescription" xml:space="preserve">
     <value>Open "Replace Dialog" from "Fast Colored Text Box"</value>
@@ -428,7 +416,6 @@
   </data>
   <data name="cmsReplaceDialog.Text" xml:space="preserve">
     <value>Replace dialog</value>
-    <comment>Editor_Menu</comment>
   </data>
   <data name="toolStripSeparator12.Size" type="System.Drawing.Size, System.Drawing">
     <value>218, 6</value>
@@ -438,7 +425,6 @@
   </data>
   <data name="cmsCodeSendLine.Text" xml:space="preserve">
     <value>Send marked line towards GRBL</value>
-    <comment>Editor_Menu</comment>
   </data>
   <data name="cmsCodeSendLine.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -448,7 +434,6 @@
   </data>
   <data name="cmsCommentOut.Text" xml:space="preserve">
     <value>Comment out unknown G-Code</value>
-    <comment>Editor_Menu</comment>
   </data>
   <data name="cmsCommentOut.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -461,7 +446,6 @@
   </data>
   <data name="cmsUpdate2DView.Text" xml:space="preserve">
     <value>Update 2D view</value>
-    <comment>Editor_Menu</comment>
   </data>
   <data name="cmsFCTB.Size" type="System.Drawing.Size, System.Drawing">
     <value>222, 430</value>
@@ -510,8 +494,10 @@
   </data>
   <data name="fCTBCode.Text" xml:space="preserve">
     <value>(Paste G-Code or load file)</value>
-    <comment>Editor</comment>
   </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>800, 17</value>
+  </metadata>
   <data name="&gt;&gt;fCTBCode.Name" xml:space="preserve">
     <value>fCTBCode</value>
   </data>
@@ -664,7 +650,6 @@
   </data>
   <data name="lbInfo.Text" xml:space="preserve">
     <value>Message</value>
-    <comment>groupBox_Streaming</comment>
   </data>
   <data name="&gt;&gt;lbInfo.Name" xml:space="preserve">
     <value>lbInfo</value>
@@ -716,7 +701,6 @@
   </data>
   <data name="btnStreamStop.ToolTip" xml:space="preserve">
     <value>Stop sending code to GRBL</value>
-    <comment>groupBox_Streaming</comment>
   </data>
   <data name="&gt;&gt;btnStreamStop.Name" xml:space="preserve">
     <value>btnStreamStop</value>
@@ -744,7 +728,6 @@
   </data>
   <data name="btnStreamCheck.Text" xml:space="preserve">
     <value>Check Code</value>
-    <comment>groupBox_Streaming</comment>
   </data>
   <data name="btnStreamCheck.ToolTip" xml:space="preserve">
     <value>This toggles the Grbl's gcode parser to take all incoming blocks and process them completely, as it would in normal operation, but it does not move any of the axes, ignores dwells, and powers off the spindle and coolant. This is intended as a way to provide the user a way to check how their new G-code program fares with Grbl's parser and monitor for any errors (and checks for soft limit violations, if enabled).</value>
@@ -829,7 +812,6 @@
   </data>
   <data name="lblElapsed.Text" xml:space="preserve">
     <value>Time</value>
-    <comment>groupBox_Streaming</comment>
   </data>
   <data name="&gt;&gt;lblElapsed.Name" xml:space="preserve">
     <value>lblElapsed</value>
@@ -860,7 +842,6 @@
   </data>
   <data name="lblFileProgress.Text" xml:space="preserve">
     <value>Progress</value>
-    <comment>groupBox_Streaming</comment>
   </data>
   <data name="&gt;&gt;lblFileProgress.Name" xml:space="preserve">
     <value>lblFileProgress</value>
@@ -889,7 +870,6 @@
   <data name="btnStreamStart.ToolTip" xml:space="preserve">
     <value>Send code from text-editor to GRBL
 Right click to choose start line number</value>
-    <comment>groupBox_Streaming</comment>
   </data>
   <data name="&gt;&gt;btnStreamStart.Name" xml:space="preserve">
     <value>btnStreamStart</value>
@@ -941,7 +921,6 @@ Right click to choose start line number</value>
   </data>
   <data name="gBoxStream.Text" xml:space="preserve">
     <value>G-Code Streaming</value>
-    <comment>groupBox_Streaming</comment>
   </data>
   <data name="&gt;&gt;gBoxStream.Name" xml:space="preserve">
     <value>gBoxStream</value>
@@ -1002,7 +981,6 @@ Right click to choose start line number</value>
   </data>
   <data name="btnOffsetApply.Text" xml:space="preserve">
     <value>Apply Offset</value>
-    <comment>groupBox_Dimension</comment>
   </data>
   <data name="&gt;&gt;btnOffsetApply.Name" xml:space="preserve">
     <value>btnOffsetApply</value>
@@ -1036,11 +1014,9 @@ Right click to choose start line number</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>Offset Y</value>
-    <comment>groupBox_Dimension</comment>
   </data>
   <data name="label6.ToolTip" xml:space="preserve">
     <value>Offset Y</value>
-    <comment>groupBox_Dimension</comment>
   </data>
   <data name="&gt;&gt;label6.Name" xml:space="preserve">
     <value>label6</value>
@@ -1104,11 +1080,9 @@ Right click to choose start line number</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Offset X</value>
-    <comment>groupBox_Dimension</comment>
   </data>
   <data name="label1.ToolTip" xml:space="preserve">
     <value>Offset X</value>
-    <comment>groupBox_Dimension</comment>
   </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
@@ -1406,7 +1380,6 @@ Right click to choose start line number</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
     <value>Origin XY</value>
-    <comment>groupBox_Dimension</comment>
   </data>
   <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
     <value>groupBox4</value>
@@ -1437,7 +1410,6 @@ Right click to choose start line number</value>
   </data>
   <data name="lbDimension.Text" xml:space="preserve">
     <value>Dimensions</value>
-    <comment>groupBox_Dimension</comment>
   </data>
   <data name="&gt;&gt;lbDimension.Name" xml:space="preserve">
     <value>lbDimension</value>
@@ -1465,7 +1437,6 @@ Right click to choose start line number</value>
   </data>
   <data name="gBoxDimension.Text" xml:space="preserve">
     <value>G-Code Dimension</value>
-    <comment>groupBox_Dimension</comment>
   </data>
   <data name="&gt;&gt;gBoxDimension.Name" xml:space="preserve">
     <value>gBoxDimension</value>
@@ -1661,7 +1632,6 @@ Right click to choose start line number</value>
   </data>
   <data name="gBOverrideRGB.Text" xml:space="preserve">
     <value>Rapid</value>
-    <comment>groupBox_Override1</comment>
   </data>
   <data name="&gt;&gt;gBOverrideRGB.Name" xml:space="preserve">
     <value>gBOverrideRGB</value>
@@ -1866,7 +1836,6 @@ Right click to choose start line number</value>
   </data>
   <data name="btnOverrideSpindle.ToolTip" xml:space="preserve">
     <value>Only works in HOLD state</value>
-    <comment>groupBox_Override2</comment>
   </data>
   <data name="&gt;&gt;btnOverrideSpindle.Name" xml:space="preserve">
     <value>btnOverrideSpindle</value>
@@ -1903,7 +1872,6 @@ Right click to choose start line number</value>
   </data>
   <data name="btnOverrideMist.ToolTip" xml:space="preserve">
     <value>M7 may not enabled in grbl</value>
-    <comment>groupBox_Override2</comment>
   </data>
   <data name="&gt;&gt;btnOverrideMist.Name" xml:space="preserve">
     <value>btnOverrideMist</value>
@@ -1961,7 +1929,6 @@ Right click to choose start line number</value>
   </data>
   <data name="gBOverrideASGB.Text" xml:space="preserve">
     <value>Toggle Accessory States</value>
-    <comment>groupBox_Override2</comment>
   </data>
   <data name="&gt;&gt;gBOverrideASGB.Name" xml:space="preserve">
     <value>gBOverrideASGB</value>
@@ -1992,11 +1959,9 @@ Right click to choose start line number</value>
   </data>
   <data name="lblStatusFeed.Text" xml:space="preserve">
     <value>actual feed</value>
-    <comment>groupBox_Override3</comment>
   </data>
   <data name="lblStatusFeed.ToolTip" xml:space="preserve">
     <value>Actual feed rate in mm/min or inch/min (depending on $13)</value>
-    <comment>groupBox_Override3</comment>
   </data>
   <data name="&gt;&gt;lblStatusFeed.Name" xml:space="preserve">
     <value>lblStatusFeed</value>
@@ -2246,7 +2211,6 @@ Right click to choose start line number</value>
   </data>
   <data name="gBOverrideFRGB.Text" xml:space="preserve">
     <value>Feed</value>
-    <comment>groupBox_Override3</comment>
   </data>
   <data name="&gt;&gt;gBOverrideFRGB.Name" xml:space="preserve">
     <value>gBOverrideFRGB</value>
@@ -2277,11 +2241,9 @@ Right click to choose start line number</value>
   </data>
   <data name="lblStatusSpeed.Text" xml:space="preserve">
     <value>actual speed</value>
-    <comment>groupBox_Override3</comment>
   </data>
   <data name="lblStatusSpeed.ToolTip" xml:space="preserve">
     <value>Actual spindle speed in RPM</value>
-    <comment>groupBox_Override3</comment>
   </data>
   <data name="&gt;&gt;lblStatusSpeed.Name" xml:space="preserve">
     <value>lblStatusSpeed</value>
@@ -2531,7 +2493,6 @@ Right click to choose start line number</value>
   </data>
   <data name="gBOverrideSSGB.Text" xml:space="preserve">
     <value>Spindle Speed</value>
-    <comment>groupBox_Override3</comment>
   </data>
   <data name="&gt;&gt;gBOverrideSSGB.Name" xml:space="preserve">
     <value>gBOverrideSSGB</value>
@@ -2559,7 +2520,6 @@ Right click to choose start line number</value>
   </data>
   <data name="gBoxOverride.Text" xml:space="preserve">
     <value>Overrides (grbl 1.1 only) - click to expand / shrink</value>
-    <comment>groupBox_Override3</comment>
   </data>
   <data name="&gt;&gt;gBoxOverride.Name" xml:space="preserve">
     <value>gBoxOverride</value>
@@ -2644,11 +2604,9 @@ Right click to choose start line number</value>
   </data>
   <data name="btnJogStop.Text" xml:space="preserve">
     <value>STOP Jogging</value>
-    <comment>groupBox_Jogging</comment>
   </data>
   <data name="btnJogStop.ToolTip" xml:space="preserve">
     <value>Stop current jogging motion</value>
-    <comment>groupBox_Jogging</comment>
   </data>
   <data name="&gt;&gt;btnJogStop.Name" xml:space="preserve">
     <value>btnJogStop</value>
@@ -2889,7 +2847,6 @@ Right click to choose start line number</value>
   </data>
   <data name="gB_Jogging.Text" xml:space="preserve">
     <value>Control / Jogging</value>
-    <comment>groupBox_Jogging</comment>
   </data>
   <data name="&gt;&gt;gB_Jogging.Name" xml:space="preserve">
     <value>gB_Jogging</value>
@@ -2912,15 +2869,15 @@ Right click to choose start line number</value>
   <data name="virtualJoystickA.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB4AAABoCAYAAADmS0B+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHVSURBVGhD7Zm9bcMwEEa1QcpUAVy5CeAmVSq3miFAUmaA
-        gK0HCcAx0nOBDMFNmO+o6ExBrGzqY6Ez8CDx+PN4NERQ9oBP6sSQUuKi4uingguoiEMacR8qHW4hOIw9
-        wlHEVFxWBkxCrh7XcoBbcRhXEslJ/cdUnAPI1EE2C1uI55XMILk5rmKPWclVZrVY9mKQW3CzEGPJmHNc
-        7sE1wMLENFTcCZnFC5WFOPgDNg5UxAMe+EfsXOsOrVBx9A9pdMcsniZwxAZyqnZqgYqlEIOITxAeUaaL
-        cUX2EnOh3qkFCzETE9NQcSck408qKo7+KRdcqDdsjYqnM9cZz3G9YWtUnAPxjDPX26rRFqj4euaqN2yN
-        imuVW2JiGiruhGT8TWUhDv4DG0i9YWtUHP0zzlxffLEUYtibmImJaai4E5LxL5WrOF7whviON8SpIvrX
-        XOnCulMLVBz8JT/D3v/kiukMJrF6x3tRsffTlz6LM1gFV5YbouJyaaN/T6Oeweod70XFZTAGbJ9FeQuq
-        YgYmpmFiGiamYWIaJqah4k5IxutD95aYmIaJaexY3AnJuP5j51aYmIaJaexY3AnJuP4H81aYmIaJaexY
-        3AnJmIuJaZiYxo7FfIb0B2lihZdfDE3mAAAAAElFTkSuQmCC
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHOSURBVGhD7Zm9bcMwEEa1QcpUAVy5CeAmVSq3miFAUmaA
+        gK0HCXBjpOcCGYKbKN9R0VmCWNnUx0Jn4EHi8efxaIig7A6foRHdMAxcTJxkLISIitQNPe5jocMtxICx
+        ezhmMRPPKyMmoVfBdT7ArQSMq4nkpP5jJs4BZBogm4Q1xNNKZpDcFDexYFZ61Vktln02yC2ESYixdMwp
+        rvfgGmDhYhomboTO4oXKQhzlgI0DFemAB/4RO9e6Qy1MnORh6MMxi8cJHLGBnIqdamBiLaSo4hOER5Tp
+        YlyRvcZCLHeqwULMxMU0TNwIzfiTiomTPOVCiOWGtTHxeOY64zkuN6yNiXMgnXHmels12gITX89c5Ya1
+        MXGpcktcTMPEjdCMv6ksxFE+sIGUG9bGxEmeceb64ou1kOLexExcTMPEjdCMf6lcxemCN8R3vCGOFUle
+        c2WI6041MHGUS36GRX5yxXgG01i5472YWGT80idxBqsQ5uWKmHi+tEneh97OYOWO92LiUuWWuJiGi2m4
+        mIaLabiYRntxIzTj9aF7S1xMw8U0dixuhGZc/rFzK1xMw8U0dixuhGZc/oN5K1xMw8U0dixuhGbMxcU0
+        XExjx2I+3fAHUeaGSAk+boAAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="virtualJoystickA.Location" type="System.Drawing.Point, System.Drawing">
@@ -2940,7 +2897,6 @@ Right click to choose start line number</value>
   </data>
   <data name="virtualJoystickA.ToolTip" xml:space="preserve">
     <value>Jog 4th axis</value>
-    <comment>groupBox_Jogging</comment>
   </data>
   <data name="&gt;&gt;virtualJoystickA.Name" xml:space="preserve">
     <value>virtualJoystickA</value>
@@ -2957,38 +2913,38 @@ Right click to choose start line number</value>
   <data name="virtualJoystickXY.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGgAAABoCAYAAAAdHLWhAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAdASURBVHhe7doxjltXEoXh3oHDiQZwpGQAJ44mctprMOAJ
-        tQCDqRcigMtwzg14EdwJp4rnUT4s/zNX5ae2r56ugQ9qsk73fXWuu6EG9BL/3Zapvdxut2VGTxd0PeuN
-        0yVeX19ur/HxpXzC8uecX9Xro+Nz9Jvvn7LveO/R9WP++Lz8OOjF5RQv4gtd8+MI5p/n+PMRXnbY/ofP
-        rl8fncaF5euPFxPdZ+bjPDxd0OML5Y0+LmZd0OeT3y3Z9f0nVLx+XEp+I+Tr/C7z1+npgu6B7Qs8/biz
-        T1j+nPvlxE+o+0+prdd8z79b7rPgn5fZ8PzmMo91QZNbFzS5dUGTa13QFl4+E+q42rI8rJT7fvkM3vyC
-        Ludv4+/r8fH12/jl6h/xy9bzAyz/35te0PX8ze319O5+Qbqod/EL7Xf32fJp3vSC0vWSF/RdXMy7eL0u
-        qOsvuiB9N+X7p8sfH2L53zqdBx5WyvGBS8+6oMmtC5rcuqDJ/a0XtH3RrxZ1Uik3tn1NHla9w99/lXod
-        jWUu8LDqHf4+/gr+z/vHpwsvc0S9jsYyF3hY9Q5/v/0bhx/i9yVe5oh6HY1lLvCw6h2+PfT1h9vp/OPv
-        rw+u19FY5gIPq97hP9q/ceBljqjX0VjmAg+r3uG8wNH1OhrLXOBh1TucFzi6XkdjmQs8rHqH8wJH1+to
-        LHOBh1XvcF7g6HodjWUu8LDqHc4LuO3wLwbtUCnHvTjlxrazeVj1DucFnHIfvgi9nbgXp9xY5gIPq97h
-        vIBTTgVczv+JX2j/WMwsejtxL065scwFHla9w3kBp9yH2/X8r9vr6ed1QSBzgYdV73BewCmnAq6XdUEk
-        c4GHVe9wXsAppwLWBbHMBR5WvcN5AaccFzKb3k7ci1NuLHOBh1XvcF7AKceFzKa3E/filBvLXOBh1Tuc
-        F3DKcSGz6e3EvTjlxjIXeFj1DucFnHJcyGx6O3EvTrmxzAUeVr3DeQGnHBfiMveW6MxKOd7DKce9OOXG
-        tmfkYdU7nBdwynEhTrnf3kTvGXgPpxz34pQby1zgYdU7nBdwynEhTrko9PrL7fXlp9tlK/d6/vd9dro8
-        l97RewbewynHvTjlxjIXeFj1DucFnHJciFPut9vl/Mv9d6Xz+Ve9vv+bh3yPy/8UvWfgPZxy3ItTbixz
-        gYdV73BewCnHhTjlfo2L0evHBd3Fd9XJXzf1noH3cMpxL065scwFHla9w3kBpxwX4pR7/pF2Pf90e/34
-        bx64/E/RewbewynHvTjlxjIXeFj1DucFnHJciFPuudjr5cOuH20PvWfgPZxy3ItTbixzgYdV73BewCnH
-        hTjluOC9es/AezjluBen3FjmAg+r3uG8gFOOC3HKccF79Z6B93DKcS9OubHMBR5WvcN5AaccF+KU44L3
-        6j0D7+GU416ccmOZCzyseofzAk45LsQpxwXv1XsG3sMpx7045cYyF3hY9Q7nBZxyXIhTjgveq/cMvIdT
-        jntxyo1lLvCw6h3OCzjluBCnHBe8V+8ZeA+nHPfilBvLXOBh1TucF3DKcSFOOS54r94z8B5OOe7FKTeW
-        ucDDqnc4L+CU40KcclzwXr1n4D2cctyLU24sc4GHVe9wXsApx4U45bjgvXrPwHs45bgXp9xY5gIPq97h
-        vIBTjgtxynHBe/WegfdwynEvTrmxzAUeVr3DeQGnHBfilOOC9+o9A+/hlONenHJjmQs8rHqH8wJOOS7E
-        KccF79V7Bt7DKce9OOXGMhd4WPUO5wWcclyIU44L3qv3DLyHU457ccqNZS7wsOodzgs45bgQpxwXvFfv
-        GXgPpxz34pQby1zgYdU7nBdwynEhTjkueK/eM/AeTjnuxSk3lrnAw6p3OC/glONCnHJc8F69Z+A9nHLc
-        i1NuLHOBh1XvcF7AKceFuMy9JTqzUo73cMpxL065se0ZeVj1DucFnHJcyGx6O3EvTrmxzAUeVr3DeQGn
-        HBcym95O3ItTbixzgYdV73BewCnHhcymtxP34pQby1zgYdU7nBdwynEhs+ntxL045cYyF3hY9Q7nBZxy
-        XMhsejtxL065scwFHla9w3kBpxwXMpveTtyLU24sc4GHVe9wXsApx4XMprcT9+KUG8tc4GHVO5wXcMpx
-        IbPp7cS9OOXGMhd4WPUO5wWcclzIbHo7cS9OubHMBR5WvcN5Abcd/sWgHSrluBen3Nh2Ng+r3uG8wNH1
-        OhrLXOBh1TucFzi6XkdjmQs8rHqH8wJH1+toLHOBh1XvcF7g6HodjWUu8LDqHc4LHF2vo7HMBR5WvcN5
-        gaPrdTSWucDDqnc4L3B0vY7GMhd4WPUO5wWOrtfRWOYCD6ve4bzA0fU6Gstc4GHVOfxrRp1Uyo1tX5OH
-        1acevoytC5rcuqDJrQua3Lqgya0Lmty6oMmtC5rcuqDJvdkFLZ8PdVxtWR4uf791QZNbFzS5dUGTWxc0
-        uXVBk1sXNLl1QZNbFzS5jxe0zOrl9l9mAEjljOakXAAAAABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAc3SURBVHhe7doxjlxVEIXh2QEhERKREyQnRESkswYkCL0A
+        1CkLQeplkPcGWETvpKnq89qcKX64Lp4Hrp8v0idPd52Z++pcZuSR/BT/3ZapPd1ut2VGLy7oetYbp0u8
+        vj7dnuPjS/mE5d85P6vXR8fn6DffP2Xf8d6j68f88Xn5cdCLyylexBe65scRzD/P8ecjvOyw/Q+fXT8/
+        Oo0Ly9fvLya6z8z7eXhxQY8vlDf6uJh1QR9Pfrdk1/efUPH6cSn5jZCv87vMX6cXF3QPbF/gxY87+4Tl
+        37lfTvyEuv+U2nrN9/y75T4L/nmZDS/fXOaxLmhy64Imty5ocq0L2sLLR0IdV1uWh5Vy3y4fwatf0OX8
+        dfx9PT6+fh2/XH0Zv2y9fIDln73qBV3PX9yeT2/uF6SLehO/0L69z5YP86oXlK6XvKC3cTFv4vW6oK7/
+        6IL03ZTvny5/fYjl73U6DzyslOMDl551QZNbFzS5dUGT+18vaPuiny3qpFJubPuaPKx6h7/7LPU6Gstc
+        4GHVO/xd/BX8q/vHpwsvc0S9jsYyF3hY9Q5/t/0bh+/j9yVe5oh6HY1lLvCw6h2+PfT1+9vp/MOfrw+u
+        19FY5gIPq97hP9i/ceBljqjX0VjmAg+r3uG8wNH1OhrLXOBh1TucFzi6XkdjmQs8rHqH8wJH1+toLHOB
+        h1XvcF7g6HodjWUu8LDqHc4LuO3wTwbtUCnHvTjlxrazeVj1DucFnHK/fhJ6O3EvTrmxzAUeVr3DeQGn
+        nAq4nH+KX2j/WswsejtxL065scwFHla9w3kBp9yvt+v5m9vz6ed1QSBzgYdV73BewCmnAq6XdUEkc4GH
+        Ve9wXsAppwLWBbHMBR5WvcN5AaccFzKb3k7ci1NuLHOBh1XvcF7AKceFzKa3E/filBvLXOBh1TucF3DK
+        cSGz6e3EvTjlxjIXeFj1DucFnHJcyGx6O3EvTrmxzAUeVr3DeQGnHBfiMvea6MxKOd7DKce9OOXGtmfk
+        YdU7nBdwynEhTrnfX0XvGXgPpxz34pQby1zgYdU7nBdwynEhTrko9PrL7fnpx9tlK/d6/u4+O11elt7R
+        ewbewynHvTjlxjIXeFj1DucFnHJciFPu99vl/Mv9d6Xz+Te9vv+bh3yPy/8QvWfgPZxy3ItTbixzgYdV
+        73BewCnHhTjlfouL0evHBd3Fd9XJXzf1noH3cMpxL065scwFHla9w3kBpxwX4pR7+SPtev7x9vz+3zxw
+        +R+i9wy8h1OOe3HKjWUu8LDqHc4LOOW4EKccF7xX7xl4D6cc9+KUG8tc4GHVO5wXcMpxIU45Lniv3jPw
+        Hk457sUpN5a5wMOqdzgv4JTjQpxyXPBevWfgPZxy3ItTbixzgYdV73BewCnHhTjluOC9es/AezjluBen
+        3FjmAg+r3uG8gFOOC3HKccF79Z6B93DKcS9OubHMBR5WvcN5AaccF+KU44L36j0D7+GU416ccmOZCzys
+        eofzAk45LsQpxwXv1XsG3sMpx7045cYyF3hY9Q7nBZxyXIhTjgveq/cMvIdTjntxyo1lLvCw6h3OCzjl
+        uBCnHBe8V+8ZeA+nHPfilBvLXOBh1TucF3DKcSFOOS54r94z8B5OOe7FKTeWucDDqnc4L+CU40Kcclzw
+        Xr1n4D2cctyLU24sc4GHVe9wXsApx4U45bjgvXrPwHs45bgXp9xY5gIPq97hvIBTjgtxynHBe/Wegfdw
+        ynEvTrmxzAUeVr3DeQGnHBfilOOC9+o9A+/hlONenHJjmQs8rHqH8wJOOS7EKccF79V7Bt7DKce9OOXG
+        Mhd4WPUO5wWcclyIU44L3qv3DLyHU457ccqNZS7wsOodzgs45bgQpxwXvFfvGXgPpxz34pQby1zgYdU7
+        nBdwynEhLnOvic6slOM9nHLci1NubHtGHla9w3kBpxwXMpveTtyLU24sc4GHVe9wXsApx4XMprcT9+KU
+        G8tc4GHVO5wXcMpxIbPp7cS9OOXGMhd4WPUO5wWcclzIbHo7cS9OubHMBR5WvcN5AaccFzKb3k7ci1Nu
+        LHOBh1XvcF7AKceFzKa3E/filBvLXOBh1TucF3DKcSGz6e3EvTjlxjIXeFj1DucFnHJcyGx6O3EvTrmx
+        zAUeVr3DeQGnHBcym95O3ItTbixzgYdV73BewG2HfzJoh0o57sUpN7adzcOqdzgvcHS9jsYyF3hY9Q7n
+        BY6u19FY5gIPq97hvMDR9Toay1zgYdU7nBc4ul5HY5kLPKx6h/MCR9fraCxzgYdV73Be4Oh6HY1lLvCw
+        6h3OCxxdr6OxzAUeVr3DeYGj63U0lrnAw6p3OC9wdL2OxjIXeFh1Dv+cUSeVcmPb1+Rh9aGHL2Prgia3
+        Lmhy64Imty5ocuuCJrcuaHLrgia3Lmhyr3ZBy8dDHVdblofL/29d0OTWBU1uXdDk1gVNbl3Q5NYFTW5d
+        0OTWBU3u/QUts3q6/QE94kmWaZcABAAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="virtualJoystickXY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
@@ -3011,7 +2967,6 @@ Right click to choose start line number</value>
   </data>
   <data name="virtualJoystickXY.ToolTip" xml:space="preserve">
     <value>Jog X and Y axis</value>
-    <comment>groupBox_Jogging</comment>
   </data>
   <data name="&gt;&gt;virtualJoystickXY.Name" xml:space="preserve">
     <value>virtualJoystickXY</value>
@@ -3028,15 +2983,15 @@ Right click to choose start line number</value>
   <data name="virtualJoystickZ.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB4AAABoCAYAAADmS0B+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHVSURBVGhD7ZkxbsMwDEV9g46dCmTKUiBLp05ZfYYC7dgD
-        FFpzkAI8RnddoIfgTVRSthkb1tJE/hrMAA+OKCpPVGBBTjp5pUZ0KSUsJmYaGiFKB3epl/exMOC/xGCS
-        1PXX+BgbE6SDNVkmoVeS6/xDbkaKUUcuaoyZOAek0iCySVhFPK5eJ4XN4yYmqVavOqvFss+Sb2H63Ikp
-        PraXyQhcDMPEjdBZvEBZiCMdZOOQDj7IvfcoO9d6QC1MzPSQ+nDM4mECR9lATsVBNTCxNjiq+CTCo7Th
-        YrlK9RoLsTyoBgsxEhfDMHEjtOJPKCZmesqNEMuJtTHxcOY6y31cTqyNiXOAz3LmelslbYGJr2eucmJt
-        TFzq3BIXwzBxI7TibygLcaQP2UDKibUxMdOznLm+8GJtcNybGImLYZi4EVrxL5SrmC/yhPguT4hDB9Nr
-        7gxxPagGJo50yfcw0U/uGM5gGisPvBcTEw1f+iTOyCqEebsiJp4vLdN76u0MVh54LyaeBznK9jlrb0FR
-        jMDFMFwMw8UwXAzDxTBM3AiteH3o3hIXw3AxjB2LG6EVl3/s3AoXw3AxjB2LG6EVl/9g3goXw3AxjB2L
-        G6EVY3ExDBfD2LEYT5f+AC66g1uv6ffSAAAAAElFTkSuQmCC
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHNSURBVGhD7ZkxbsMwDEV9g46dCmTKUiBLp05ZfYYC7dgD
+        FFpzkAI8RnddoIfQTVRSthkb5tJE/hrMAA+OKCpPVGBBTjp+5UZ0OWcsKk40NELkjtTlnt9HY8B/iUEl
+        ueuv8TE2JnBHkmSehFyJr/MPuRkuRhylqDGm4hLgSgPLJmEV8bh6HRc2j6uYuFq5yqwWyz5LvoXpcyem
+        +NheJiNwMQwVN0Jm8QJlIY504I2DO9KB771H3rnWA2qh4kQPuQ/HIh4mcOQN5GQOqoGKpZGiiE8sPHIb
+        LuYrVy+xEO1BNViIkbgYhoobIRV/QlFxoqfSCNFOrI2KhzPXme9jO7E2Ki6BdOYz19sqaQtUfD1z2Ym1
+        UbHVuSUuhqHiRkjF31AW4kgfvIHYibVRcaJnPnN94cXSSHFvYiQuhqHiRkjFv1Cu4nThJ8R3fkIcOhK9
+        ls4Q14NqoOJIl3IPE/2UjuEMJjF74L2omGj40idxgVchzNsVUfF8aRO9517PYPbAe1Gx1bklLobhYhgu
+        huFiGC6G0V7cCKl4fejeEhfDcDGMHYsbIRXbP3ZuhYthuBjGjsWNkIrtP5i3wsUwXAxjx+JGSMVYXAzD
+        xTB2LMbT5T8XPoQMImZz5wAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="virtualJoystickZ.Location" type="System.Drawing.Point, System.Drawing">
@@ -3059,7 +3014,6 @@ Right click to choose start line number</value>
   </data>
   <data name="virtualJoystickZ.ToolTip" xml:space="preserve">
     <value>Jog Z axis</value>
-    <comment>groupBox_Jogging</comment>
   </data>
   <data name="&gt;&gt;virtualJoystickZ.Name" xml:space="preserve">
     <value>virtualJoystickZ</value>
@@ -3076,15 +3030,15 @@ Right click to choose start line number</value>
   <data name="virtualJoystickB.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABkAAABoCAYAAAAEl1sHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHNSURBVGhD7ZkxbsMwDEV9g46dCmTKUiBLp05ZfYYC6dgD
-        FFpzkAI8RnddoIfQTdRPOWZkWGjK2NJgMMCDI4rUAx0oMpIOr9iALsZYD5EEGgbOYyJ0scd7Xyj4C+9k
-        wdhjvTF+iV0Sesg4GQl8pSzxP4xrcD1fx7hIUgAdOCSMi98lGRZMjPHLGAvCzFe+XZNbly1yi5uSPHlt
-        TKJCJA1g40s1JhJPO2xCTIQddvwjdvy84B5EEugh9m6fJINsj814KBZpEQkPgmfJAYvvMa4qwRVdccz5
-        cpGWiaQWJlEhkgZwJx/VEEmgpzRwvpy4BJEM5/MR+6ScuASRpEA44ox/myUtRSTXM76cuASRlCbXwiQq
-        RNIA7uSrGhOJp3dsxnLiEkQS6Bln/GddCQ+C34qkFiZRIZIGcCc/1bhKwhlP8ic8yQ8TgV7TpPPzIi0i
-        8XROe4ToO00MZz7HyoUaREI0fEijJIHuXD6+E5HktyfQKfZy5pcLNYgkDwaPr5hsvJSiZG1MosIkKkyi
-        wiQqTKJCJA3gTuYPZWthEhUmUbFBSQO4k/KPL2tgEhUmUbFBSQO4k/IfLGtgEhUmUbFBSQO4k3qYRIVJ
-        VGxQUpcu/gJpkg0tHEBwvAAAAABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHFSURBVGhD7ZkxbsMwDEV9g46dCmTKUiBLp05ZfYYC6dgD
+        FFpzkAI8RnddoIfQTdRPKWZsWGjK2NJgMMCDKonkAx0IMtIOn9iALsZYD5EEyhPnsRG62ONvX0j4C++k
+        YOxRb1i/rF0Cesg4GAE80ijwPww1OJ/HYV0kaQEdOAQMxe+S5IKJYf0yR0GYeeTHNXl0oyK3uCkZB6+N
+        SVSIpAFsfKnGROJph0OIjbDDiX/EiZ8n3INIAj3E3u2TJMv2OIyHYpIWkfAkeJYcUHyPeVUJRnTFa86X
+        k7RMJLUwiQqRNIA7+aiGSAI9pYnz5cAliCTfz0eck3LgEkSSFsIRd/zbLGgpIrne8eXAJYiktLkWJlEh
+        kgZwJ1/VmEg8veMwlgOXIJJAz7jjP+tKeBL8ViS1MIkKkTSAO/mpxlUSzniTP+FNPm8Eek2bzs+TtIjE
+        0zmdEaLvtJHvfF4rJ2oQCVH+kgZJAt258fxORDJ+PIFOsZc7v5yoQSSlzbUwiQqTqDCJCpOoMImKtpIG
+        cCfzl7K1MIkKk6jYoKQB3En5x5c1MIkKk6jYoKQB3En5HyxrYBIVJlGxQUkDuJN6mESFSVRsUFKXLv4C
+        L+EN3hnR/7MAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="virtualJoystickB.Location" type="System.Drawing.Point, System.Drawing">
@@ -3104,7 +3058,6 @@ Right click to choose start line number</value>
   </data>
   <data name="virtualJoystickB.ToolTip" xml:space="preserve">
     <value>Jog 4th axis</value>
-    <comment>groupBox_Jogging</comment>
   </data>
   <data name="&gt;&gt;virtualJoystickB.Name" xml:space="preserve">
     <value>virtualJoystickB</value>
@@ -3121,15 +3074,15 @@ Right click to choose start line number</value>
   <data name="virtualJoystickC.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABkAAABoCAYAAAAEl1sHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHOSURBVGhD7ZkxbsMwDEV9g46dCmTKUiBLp05Zc4YC6dgD
-        FFpzkAI8RnddoIfQTdRP2WFsmC3A2NJgMMCDI5HUCxMoMpIOj9yALudcD5Ek6gchIpC6fMLzqBT8yVBT
-        FjxhvVFMJDHcghFCvhKuk4X+QeoHWXmxQ0wkZQIJAQtfF7dICIIOIi0mkpI0vILJW6cUqSB3WGxWO8yN
-        kivgEhMiaQAbX6oxkUTaYRMikHbYUI/Y8fOCexBJood8Cvsi6WV7bMaDWmRFJDxIkSUHLL7HuKoEV3TF
-        cyHqRVYmklq4xIRIGsCdfFRDJImeyiBEPXEJIunP6CP2iZ64BJGUiXTEGf82S1qKSG5nvJ64BJFowbVw
-        iQmRNIA7+arGRBLpHZtRT1yCSBI944z/rCvhQYpbkdTCJSZE0gDu5KcaN0m64E7+jDv5PpDotQRDnBdZ
-        EUmkS9kjRN8l0J/5PKcXWhAJUf8hXSUFdBfG4zsRyfjtSXTOJznz9UILIhlPpoivmNF4KapkbVxiwiUm
-        XGLCJSZcYkIkDeBO5jdla+ESEy4xsUFJA7gT/ceXNXCJCZeY2KCkAdyJ/gfLGrjEhEtMbFDSAO6kHi4x
-        4RITG5TUpcu/O5AQ4UCxriQAAAAASUVORK5CYII=
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHGSURBVGhD7ZkxbsMwDEV9g46dCmTKUiBLp05Zc4YC6dgD
+        FFpzkAI8RnddoIfQTdRP2WFsmC3A2NJgMMCDI5HUMxMIMpIOr9yALudcD5Ek6gchIpC6fML7qBT8yVBT
+        FjxhvVFMJDHcghFCvhKuk4X+QeoHWbnZISaSMoGEgIWvi1skBEEHkRYTSUka7mDy0SlFKsgdFpvVDnOj
+        5Aq4xIRIGsDGl2pMJJF22IQIpB021CN2/LzgHkSS6CGfwr5Ietkem/GgFlkRCQ9SZMkBi+8xrirBFV3x
+        XIh6kZWJpBYuMSGSBnAnH9UQSaKnMghRT1yCSPoz+oh9oicuQSRlIh1xxr/NkpYiktsZrycuQSRacC1c
+        YkIkDeBOvqoxkUR6x2bUE5cgkkTPOOM/60p4kOJWJLVwiQmRNIA7+anGTZIueJI/40m+DyR6LcEQ50VW
+        RBLpUvYI0XcJ9Gc+z+mFFkRC1H9JV0kB3YXx+E5EMv54Ep3zSc58vdCCSLTgWrjEhEtMuMSES0y4xERb
+        SQO4k/lD2Vq4xIRLTGxQ0gDuRP/xZQ1cYsIlJjYoaQB3ov/BsgYuMeESExuUNIA7qYdLTLjExAYldeny
+        LwHfEZJvELoqAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="virtualJoystickC.Location" type="System.Drawing.Point, System.Drawing">
@@ -3149,7 +3102,6 @@ Right click to choose start line number</value>
   </data>
   <data name="virtualJoystickC.ToolTip" xml:space="preserve">
     <value>Jog 4th axis</value>
-    <comment>groupBox_Jogging</comment>
   </data>
   <data name="&gt;&gt;virtualJoystickC.Name" xml:space="preserve">
     <value>virtualJoystickC</value>
@@ -3216,7 +3168,6 @@ Right click to choose start line number</value>
   </data>
   <data name="cBSendJogStop.Text" xml:space="preserve">
     <value>STOP Jogging on mouse up</value>
-    <comment>groupBox_Jogging</comment>
   </data>
   <data name="&gt;&gt;cBSendJogStop.Name" xml:space="preserve">
     <value>cBSendJogStop</value>
@@ -3256,7 +3207,6 @@ Right click to choose start line number</value>
   </data>
   <data name="btnOverrideDoor.Text" xml:space="preserve">
     <value>Door</value>
-    <comment>groupBox_Jogging</comment>
   </data>
   <data name="btnOverrideDoor.ToolTip" xml:space="preserve">
     <value>Although typically connected to an input pin to detect the opening of a safety door, this command allows a GUI to enact the safety door behavior with this command.
@@ -3267,7 +3217,6 @@ If the parking compile-time option is enabled, Grbl will park the spindle to a s
 Command executes when Grbl is in an IDLE, HOLD, RUN, HOMING, or JOG state. It is otherwise ignored.
 If jogging, a safety door will cancel the jog and all queued motions in the planner buffer. When the safety door is closed and resumed, Grbl will return to an IDLE state.
 An input pin is available to connect a button or switch, if enabled with a compile-time option.</value>
-    <comment>groupBox_Jogging</comment>
   </data>
   <data name="&gt;&gt;btnOverrideDoor.Name" xml:space="preserve">
     <value>btnOverrideDoor</value>
@@ -3301,13 +3250,11 @@ An input pin is available to connect a button or switch, if enabled with a compi
   </data>
   <data name="btnResume.Text" xml:space="preserve">
     <value>Resume</value>
-    <comment>groupBox_Jogging</comment>
   </data>
   <data name="btnResume.ToolTip" xml:space="preserve">
     <value>The cycle start or resume command '~' can be issued at any time, as it is a real-time command. 
 When Grbl has motions queued in its buffer and is ready to go, the  ~  cycle start command will 
 start executing the buffer and Grbl will begin moving the axes.</value>
-    <comment>groupBox_Jogging</comment>
   </data>
   <data name="&gt;&gt;btnResume.Name" xml:space="preserve">
     <value>btnResume</value>
@@ -3341,7 +3288,6 @@ start executing the buffer and Grbl will begin moving the axes.</value>
   </data>
   <data name="btnFeedHold.Text" xml:space="preserve">
     <value>Feed Hold</value>
-    <comment>groupBox_Jogging</comment>
   </data>
   <data name="btnFeedHold.ToolTip" xml:space="preserve">
     <value>The feed hold command '!' will bring the active cycle to a stop via a controlled deceleration, so as not to lose position. 
@@ -3351,7 +3297,6 @@ If you need to stop a cycle mid-program and can't afford losing position, perfor
 everything to a controlled stop. Once finished, you can then issue a reset. Always try to execute a feed hold whenever 
 the machine is running before hitting reset, except of course if there is some emergency situation.
 </value>
-    <comment>groupBox_Jogging</comment>
   </data>
   <data name="&gt;&gt;btnFeedHold.Name" xml:space="preserve">
     <value>btnFeedHold</value>
@@ -3421,7 +3366,6 @@ the machine is running before hitting reset, except of course if there is some e
   </data>
   <data name="btnKillAlarm.Text" xml:space="preserve">
     <value>Kill Alarm</value>
-    <comment>groupBox_Jogging</comment>
   </data>
   <data name="btnKillAlarm.ToolTip" xml:space="preserve">
     <value>Grbl's alarm mode is a state when something has gone critically wrong, 
@@ -3432,7 +3376,6 @@ G-code commands until the '$H' homing cycle has been performed. Or if a user nee
 to override the alarm lock to move their axes off their limit switches, for example, '$X' kill alarm lock 
 will override the locks and allow G-code functions to work again. 
 </value>
-    <comment>groupBox_Jogging</comment>
   </data>
   <data name="&gt;&gt;btnKillAlarm.Name" xml:space="preserve">
     <value>btnKillAlarm</value>
@@ -3466,7 +3409,6 @@ will override the locks and allow G-code functions to work again.
   </data>
   <data name="btnReset.Text" xml:space="preserve">
     <value>RESET</value>
-    <comment>groupBox_Jogging</comment>
   </data>
   <data name="btnReset.ToolTip" xml:space="preserve">
     <value>This is Grbl's soft reset command 'Ctrl-x'. It's real-time and can be sent at any time. 
@@ -3478,7 +3420,6 @@ This is because an uncontrolled deceleration can lead to lost steps, and Grbl ha
 to how much it lost (this is the problem with steppers in general). Otherwise, Grbl will just re-initialize,
  run the startup lines, and continue on its merry way. 
 </value>
-    <comment>groupBox_Jogging</comment>
   </data>
   <data name="&gt;&gt;btnReset.Name" xml:space="preserve">
     <value>btnReset</value>
@@ -3908,7 +3849,6 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
   </data>
   <data name="CbSpindle.Text" xml:space="preserve">
     <value>Spindle On</value>
-    <comment>groupBox_Jogging</comment>
   </data>
   <data name="&gt;&gt;CbSpindle.Name" xml:space="preserve">
     <value>CbSpindle</value>
@@ -3939,7 +3879,6 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
   </data>
   <data name="CbCoolant.Text" xml:space="preserve">
     <value>Coolant</value>
-    <comment>groupBox_Jogging</comment>
   </data>
   <data name="&gt;&gt;CbCoolant.Name" xml:space="preserve">
     <value>CbCoolant</value>
@@ -3997,7 +3936,6 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
   </data>
   <data name="CbTool.Text" xml:space="preserve">
     <value>Tool is in Spindle</value>
-    <comment>groupBox_Jogging</comment>
   </data>
   <data name="&gt;&gt;CbTool.Name" xml:space="preserve">
     <value>CbTool</value>
@@ -4739,6 +4677,9 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
   <data name="pictureBox1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
+  <metadata name="cmsPictureBox.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>339, 56</value>
+  </metadata>
   <data name="unDo2ToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -4747,7 +4688,6 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
   </data>
   <data name="unDo2ToolStripMenuItem.Text" xml:space="preserve">
     <value>Undo last action</value>
-    <comment>Menu131</comment>
   </data>
   <data name="toolStripSeparator17.Size" type="System.Drawing.Size, System.Drawing">
     <value>233, 6</value>
@@ -4760,7 +4700,6 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
   </data>
   <data name="cmsPicBoxMoveToMarkedPosition.ToolTipText" xml:space="preserve">
     <value>Move tool to marked position</value>
-    <comment>20220428</comment>
   </data>
   <data name="cmsPicBoxZeroXYAtMarkedPosition.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 22</value>
@@ -4770,7 +4709,6 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
   </data>
   <data name="cmsPicBoxZeroXYAtMarkedPosition.ToolTipText" xml:space="preserve">
     <value>Set actual coordinate system to zero at marked position</value>
-    <comment>20220428</comment>
   </data>
   <data name="cmsPicBoxZeroXYAtMarkedPosition.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -4801,7 +4739,6 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
   </data>
   <data name="cmsPicBoxPasteFromClipboard.ToolTipText" xml:space="preserve">
     <value>Process data from clipboard, like SVG, DXF, TXT (SVG or GCode) or image</value>
-    <comment>20220428</comment>
   </data>
   <data name="cmsPicBoxReloadFile.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 22</value>
@@ -4811,7 +4748,6 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
   </data>
   <data name="cmsPicBoxReloadFile.ToolTipText" xml:space="preserve">
     <value>Reload last loaded file</value>
-    <comment>20220428</comment>
   </data>
   <data name="deletenotMarkToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -4821,11 +4757,9 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
   </data>
   <data name="deletenotMarkToolStripMenuItem.Text" xml:space="preserve">
     <value>Mark code (no delete)</value>
-    <comment>2DView_Menu</comment>
   </data>
   <data name="deletenotMarkToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>Click to toggle</value>
-    <comment>2DView_Menu</comment>
   </data>
   <data name="deletenotMarkToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -4853,7 +4787,6 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
   </data>
   <data name="cmsPicBoxShowProperties.ToolTipText" xml:space="preserve">
     <value>Show or edit properties of selected figure or group</value>
-    <comment>20220428</comment>
   </data>
   <data name="cmsPicBoxDuplicatePath.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -4866,7 +4799,6 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
   </data>
   <data name="cmsPicBoxDuplicatePath.ToolTipText" xml:space="preserve">
     <value>Duplicate figure or group with optional offset (check [Setup - Program appearance - 2D-View / Editor]</value>
-    <comment>20220428</comment>
   </data>
   <data name="cmsPicBoxDeletePath.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -4891,7 +4823,6 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
   </data>
   <data name="cmsPicBoxCropSelectedPath.ToolTipText" xml:space="preserve">
     <value>Crop (release) selected figure or group</value>
-    <comment>20220428</comment>
   </data>
   <data name="cmsPicBoxMoveSelectedPathInCode.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -4916,7 +4847,6 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
   </data>
   <data name="cmsPicBoxReverseSelectedPath.ToolTipText" xml:space="preserve">
     <value>Reverse order of path node - only possible after import of graphic</value>
-    <comment>20220428</comment>
   </data>
   <data name="cmsPicBoxRotateSelectedPath.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -4929,7 +4859,6 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
   </data>
   <data name="cmsPicBoxRotateSelectedPath.ToolTipText" xml:space="preserve">
     <value>Rotate start node of selected path  to click position- only possible after import of graphic</value>
-    <comment>20220428</comment>
   </data>
   <data name="toolStripSeparator10.Size" type="System.Drawing.Size, System.Drawing">
     <value>233, 6</value>
@@ -4942,7 +4871,6 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
   </data>
   <data name="cmsPicBoxSetGCodeAsBackground.ToolTipText" xml:space="preserve">
     <value>Copy selected path to background</value>
-    <comment>20220428</comment>
   </data>
   <data name="cmsPicBoxClearBackground.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 22</value>
@@ -4958,7 +4886,6 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
   </data>
   <data name="copyContentTroClipboardToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>Copy 2D-View image to clipboard</value>
-    <comment>20220428</comment>
   </data>
   <data name="cmsPictureBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>237, 452</value>
@@ -4983,6 +4910,9 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>286, 347</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
   </data>
   <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -5013,7 +4943,6 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
   </data>
   <data name="tBURL.Text" xml:space="preserve">
     <value>Paste URL of SVG / DXF file here</value>
-    <comment>2DView</comment>
   </data>
   <data name="tBURL.ToolTip" xml:space="preserve">
     <value>Check
@@ -5776,7 +5705,6 @@ Changing import settings after the first import can lead to undesired effects.</
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
     <value>Custom Buttons</value>
-    <comment>groupBox_Custom</comment>
   </data>
   <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
     <value>groupBox5</value>
@@ -5840,11 +5768,9 @@ Changing import settings after the first import can lead to undesired effects.</
   </data>
   <data name="btnZeroC.Text" xml:space="preserve">
     <value>Zero C</value>
-    <comment>groupBox_Tool_Coord</comment>
   </data>
   <data name="btnZeroC.ToolTip" xml:space="preserve">
     <value>Set work C coordinate to zero</value>
-    <comment>groupBox_Tool_Coord</comment>
   </data>
   <data name="&gt;&gt;btnZeroC.Name" xml:space="preserve">
     <value>btnZeroC</value>
@@ -5980,11 +5906,9 @@ Changing import settings after the first import can lead to undesired effects.</
   </data>
   <data name="btnZeroB.Text" xml:space="preserve">
     <value>Zero B</value>
-    <comment>groupBox_Tool_Coord</comment>
   </data>
   <data name="btnZeroB.ToolTip" xml:space="preserve">
     <value>Set work B coordinate to zero</value>
-    <comment>groupBox_Tool_Coord</comment>
   </data>
   <data name="&gt;&gt;btnZeroB.Name" xml:space="preserve">
     <value>btnZeroB</value>
@@ -6092,7 +6016,6 @@ Changing import settings after the first import can lead to undesired effects.</
     <value>Default coordinate system = G54
 Camera coordinate system = G59
 Add 'G54;' to G-Code header to switch back automatically to G54 before streaming G-Code</value>
-    <comment>groupBox_Tool_Coord</comment>
   </data>
   <data name="&gt;&gt;lblCurrentG.Name" xml:space="preserve">
     <value>lblCurrentG</value>
@@ -6126,7 +6049,6 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
   </data>
   <data name="label_status0.Text" xml:space="preserve">
     <value>Status:</value>
-    <comment>groupBox_Tool_Coord</comment>
   </data>
   <data name="label_status0.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -6193,11 +6115,9 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
   </data>
   <data name="btnZeroA.Text" xml:space="preserve">
     <value>Zero Z</value>
-    <comment>groupBox_Tool_Coord</comment>
   </data>
   <data name="btnZeroA.ToolTip" xml:space="preserve">
     <value>Set work coordinate to zero</value>
-    <comment>groupBox_Tool_Coord</comment>
   </data>
   <data name="&gt;&gt;btnZeroA.Name" xml:space="preserve">
     <value>btnZeroA</value>
@@ -6297,11 +6217,9 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
   </data>
   <data name="btnHome.Text" xml:space="preserve">
     <value>Home</value>
-    <comment>groupBox_Tool_Coord</comment>
   </data>
   <data name="btnHome.ToolTip" xml:space="preserve">
     <value>Start Homing (if enabled in GRBL)</value>
-    <comment>groupBox_Tool_Coord</comment>
   </data>
   <data name="&gt;&gt;btnHome.Name" xml:space="preserve">
     <value>btnHome</value>
@@ -6329,11 +6247,9 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
   </data>
   <data name="btnZeroXYZ.Text" xml:space="preserve">
     <value>Zero XYZ</value>
-    <comment>groupBox_Tool_Coord</comment>
   </data>
   <data name="btnZeroXYZ.ToolTip" xml:space="preserve">
     <value>Set work X,Y,Z coordinate to zero</value>
-    <comment>groupBox_Tool_Coord</comment>
   </data>
   <data name="&gt;&gt;btnZeroXYZ.Name" xml:space="preserve">
     <value>btnZeroXYZ</value>
@@ -6361,11 +6277,9 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
   </data>
   <data name="btnZeroXY.Text" xml:space="preserve">
     <value>Zero XY</value>
-    <comment>groupBox_Tool_Coord</comment>
   </data>
   <data name="btnZeroXY.ToolTip" xml:space="preserve">
     <value>Set work X,Y coordinate to zero</value>
-    <comment>groupBox_Tool_Coord</comment>
   </data>
   <data name="&gt;&gt;btnZeroXY.Name" xml:space="preserve">
     <value>btnZeroXY</value>
@@ -6429,11 +6343,9 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
   </data>
   <data name="btnZeroZ.Text" xml:space="preserve">
     <value>Zero Z</value>
-    <comment>groupBox_Tool_Coord</comment>
   </data>
   <data name="btnZeroZ.ToolTip" xml:space="preserve">
     <value>Set work Z coordinate to zero</value>
-    <comment>groupBox_Tool_Coord</comment>
   </data>
   <data name="&gt;&gt;btnZeroZ.Name" xml:space="preserve">
     <value>btnZeroZ</value>
@@ -6497,11 +6409,9 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
   </data>
   <data name="btnZeroY.Text" xml:space="preserve">
     <value>Zero Y</value>
-    <comment>groupBox_Tool_Coord</comment>
   </data>
   <data name="btnZeroY.ToolTip" xml:space="preserve">
     <value>Set work Y coordinate to zero</value>
-    <comment>groupBox_Tool_Coord</comment>
   </data>
   <data name="&gt;&gt;btnZeroY.Name" xml:space="preserve">
     <value>btnZeroY</value>
@@ -6565,11 +6475,9 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
   </data>
   <data name="btnZeroX.Text" xml:space="preserve">
     <value>Zero X</value>
-    <comment>groupBox_Tool_Coord</comment>
   </data>
   <data name="btnZeroX.ToolTip" xml:space="preserve">
     <value>Set work X coordinate to zero</value>
-    <comment>groupBox_Tool_Coord</comment>
   </data>
   <data name="&gt;&gt;btnZeroX.Name" xml:space="preserve">
     <value>btnZeroX</value>
@@ -6600,7 +6508,6 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
   </data>
   <data name="label_status.Text" xml:space="preserve">
     <value>Status</value>
-    <comment>groupBox_Tool_Coord</comment>
   </data>
   <data name="label_status.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
@@ -6844,7 +6751,6 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
   </data>
   <data name="groupBoxCoordinates.Text" xml:space="preserve">
     <value>Tool Coordinates (Work / Machine)</value>
-    <comment>groupBox_Tool_Coord</comment>
   </data>
   <data name="&gt;&gt;groupBoxCoordinates.Name" xml:space="preserve">
     <value>groupBoxCoordinates</value>
@@ -6954,23 +6860,23 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
   <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <data name="loadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>204, 22</value>
   </data>
   <data name="loadToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Open File</value>
-    <comment>Menu111</comment>
   </data>
   <data name="loadToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>Open G-Code or SVG file</value>
-    <comment>Menu111</comment>
   </data>
   <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
     <value>204, 22</value>
   </data>
   <data name="toolStripMenuItem2.Text" xml:space="preserve">
     <value>Open Recent File</value>
-    <comment>Menu112</comment>
   </data>
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
     <value>201, 6</value>
@@ -6980,11 +6886,9 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
   </data>
   <data name="saveToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Save G-Code</value>
-    <comment>Menu113</comment>
   </data>
   <data name="saveToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>Save displayed G-Code to a file</value>
-    <comment>Menu113</comment>
   </data>
   <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
     <value>201, 6</value>
@@ -6994,7 +6898,6 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
   </data>
   <data name="setupToolStripMenuItem1.Text" xml:space="preserve">
     <value>Setup</value>
-    <comment>Menu114</comment>
   </data>
   <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
     <value>201, 6</value>
@@ -7004,25 +6907,21 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
   </data>
   <data name="saveMachineParametersToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Export Machine Settings</value>
-    <comment>Menu115</comment>
   </data>
   <data name="saveMachineParametersToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>Export GUI-Settings (Button definitions, Joystick parameters) to an INI-file</value>
-    <comment>Menu115</comment>
   </data>
   <data name="loadMachineParametersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>204, 22</value>
   </data>
   <data name="loadMachineParametersToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Import Machine Settings</value>
-    <comment>Menu116</comment>
   </data>
   <data name="loadMachineParametersToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>Import GUI-Settings (Button definitions, Joystick parameters) from an INI-file</value>
-    <comment>Menu116</comment>
   </data>
   <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>128, 22</value>
   </data>
   <data name="englishToolStripMenuItem.Text" xml:space="preserve">
     <value>English</value>
@@ -7038,7 +6937,7 @@ Inglês
 英语</value>
   </data>
   <data name="deutschToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>128, 22</value>
   </data>
   <data name="deutschToolStripMenuItem.Text" xml:space="preserve">
     <value>Deutsch</value>
@@ -7055,7 +6954,7 @@ alemão
 </value>
   </data>
   <data name="pусскийToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>128, 22</value>
   </data>
   <data name="pусскийToolStripMenuItem.Text" xml:space="preserve">
     <value>Pусский</value>
@@ -7072,7 +6971,7 @@ russo
 </value>
   </data>
   <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>128, 22</value>
   </data>
   <data name="toolStripMenuItem4.Text" xml:space="preserve">
     <value>Español</value>
@@ -7089,7 +6988,7 @@ espanhol
 </value>
   </data>
   <data name="portuguêsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>128, 22</value>
   </data>
   <data name="portuguêsToolStripMenuItem.Text" xml:space="preserve">
     <value>Português</value>
@@ -7106,7 +7005,7 @@ Português
 </value>
   </data>
   <data name="franzToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>128, 22</value>
   </data>
   <data name="franzToolStripMenuItem.Text" xml:space="preserve">
     <value>Francés</value>
@@ -7122,7 +7021,7 @@ francês
 法文</value>
   </data>
   <data name="italianoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>128, 22</value>
   </data>
   <data name="italianoToolStripMenuItem.Text" xml:space="preserve">
     <value>Italiano</value>
@@ -7137,7 +7036,7 @@ italština
 イタリアの</value>
   </data>
   <data name="czechToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>128, 22</value>
   </data>
   <data name="czechToolStripMenuItem.Text" xml:space="preserve">
     <value>čeština</value>
@@ -7154,7 +7053,7 @@ Tcheco
 التشيكية</value>
   </data>
   <data name="chinesischToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>128, 22</value>
   </data>
   <data name="chinesischToolStripMenuItem.Text" xml:space="preserve">
     <value>中国</value>
@@ -7170,7 +7069,7 @@ chinês
 中文</value>
   </data>
   <data name="arabischToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>128, 22</value>
   </data>
   <data name="arabischToolStripMenuItem.Text" xml:space="preserve">
     <value>العربية</value>
@@ -7186,7 +7085,7 @@ arabe
 阿拉伯</value>
   </data>
   <data name="japanischToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>128, 22</value>
   </data>
   <data name="japanischToolStripMenuItem.Text" xml:space="preserve">
     <value>日本の</value>
@@ -7230,18 +7129,15 @@ Jazyk
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;File</value>
-    <comment>Menu11</comment>
   </data>
   <data name="textWizzardToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>187, 22</value>
   </data>
   <data name="textWizzardToolStripMenuItem.Text" xml:space="preserve">
     <value>Create &amp;Text</value>
-    <comment>Menu121</comment>
   </data>
   <data name="textWizzardToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>Simple copywriting with Hershey fonts</value>
-    <comment>Menu121</comment>
   </data>
   <data name="createBarcodeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>187, 22</value>
@@ -7254,18 +7150,15 @@ Jazyk
   </data>
   <data name="imageToolStripMenuItem.Text" xml:space="preserve">
     <value>Convert &amp;Image</value>
-    <comment>Menu122</comment>
   </data>
   <data name="createSimpleShapesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>187, 22</value>
   </data>
   <data name="createSimpleShapesToolStripMenuItem.Text" xml:space="preserve">
     <value>Create Simple Sh&amp;apes</value>
-    <comment>Menu123</comment>
   </data>
   <data name="createSimpleShapesToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>Circle or rectangle, optionally with rounded corners, optionally as a bag</value>
-    <comment>Menu123</comment>
   </data>
   <data name="createJogPathToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>187, 22</value>
@@ -7284,7 +7177,6 @@ Jazyk
   </data>
   <data name="createGCodeToolStripMenuItem.Text" xml:space="preserve">
     <value>G-Code &amp;Creation</value>
-    <comment>Menu12</comment>
   </data>
   <data name="unDoToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -7294,7 +7186,6 @@ Jazyk
   </data>
   <data name="unDoToolStripMenuItem.Text" xml:space="preserve">
     <value>Undo last action</value>
-    <comment>2DView_Menu</comment>
   </data>
   <data name="toolStripSeparator16.Size" type="System.Drawing.Size, System.Drawing">
     <value>229, 6</value>
@@ -7307,7 +7198,6 @@ Jazyk
   </data>
   <data name="mirrorXToolStripMenuItem.Text" xml:space="preserve">
     <value>Mirror X (&amp;horizontal)</value>
-    <comment>Menu131</comment>
   </data>
   <data name="mirrorYToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Alt+V</value>
@@ -7317,14 +7207,12 @@ Jazyk
   </data>
   <data name="mirrorYToolStripMenuItem.Text" xml:space="preserve">
     <value>Mirror Y (&amp;vertical)</value>
-    <comment>Menu131</comment>
   </data>
   <data name="mirrorRotaryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>232, 22</value>
   </data>
   <data name="mirrorRotaryToolStripMenuItem.Text" xml:space="preserve">
     <value>Mirror Rotary axis</value>
-    <comment>Menu131</comment>
   </data>
   <data name="mirrorRotaryToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -7337,21 +7225,18 @@ Jazyk
   </data>
   <data name="rotate90ToolStripMenuItem.Text" xml:space="preserve">
     <value>Rotate +90° (ccw)</value>
-    <comment>Menu132</comment>
   </data>
   <data name="rotate90ToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>232, 22</value>
   </data>
   <data name="rotate90ToolStripMenuItem1.Text" xml:space="preserve">
     <value>Rotate -90° (cw)</value>
-    <comment>Menu132</comment>
   </data>
   <data name="rotate180ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>232, 22</value>
   </data>
   <data name="rotate180ToolStripMenuItem.Text" xml:space="preserve">
     <value>Rotate 180°</value>
-    <comment>Menu132</comment>
   </data>
   <data name="toolStrip_tb_rotate.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
@@ -7367,7 +7252,6 @@ Jazyk
   </data>
   <data name="rotateFreeToolStripMenuItem.Text" xml:space="preserve">
     <value>Rotate by ...°</value>
-    <comment>Menu132</comment>
   </data>
   <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
     <value>229, 6</value>
@@ -7386,7 +7270,6 @@ Jazyk
   </data>
   <data name="sToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale XY by ...%</value>
-    <comment>Menu133</comment>
   </data>
   <data name="toolStrip_tb_XY_X_scale.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
@@ -7402,7 +7285,6 @@ Jazyk
   </data>
   <data name="skalierenXYToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale XY set X=... units</value>
-    <comment>Menu133</comment>
   </data>
   <data name="toolStrip_tb_XY_Y_scale.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
@@ -7418,7 +7300,6 @@ Jazyk
   </data>
   <data name="skalierenXYUmXUnitsZuErreichenToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale XY set Y=... units</value>
-    <comment>Menu133</comment>
   </data>
   <data name="toolStrip_tb_X_scale.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
@@ -7434,11 +7315,9 @@ Jazyk
   </data>
   <data name="skaliereXUmToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale X by ...%</value>
-    <comment>Menu133</comment>
   </data>
   <data name="skaliereXUmToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>G2 / G3 are not supported</value>
-    <comment>Menu133</comment>
   </data>
   <data name="toolStrip_tb_X_X_scale.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
@@ -7454,11 +7333,9 @@ Jazyk
   </data>
   <data name="skaliereAufXUnitsToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale X set X=... units</value>
-    <comment>Menu133</comment>
   </data>
   <data name="skaliereAufXUnitsToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>G2 / G3 are not supported</value>
-    <comment>Menu133</comment>
   </data>
   <data name="toolStrip_tb_Y_scale.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
@@ -7474,11 +7351,9 @@ Jazyk
   </data>
   <data name="skaliereYUmToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale Y by ...%</value>
-    <comment>Menu133</comment>
   </data>
   <data name="skaliereYUmToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>G2 / G3 are not supported</value>
-    <comment>Menu133</comment>
   </data>
   <data name="toolStrip_tb_Y_Y_scale.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
@@ -7494,11 +7369,9 @@ Jazyk
   </data>
   <data name="skaliereAufYUnitsToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale Y set Y=... units</value>
-    <comment>Menu133</comment>
   </data>
   <data name="skaliereAufYUnitsToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>G2 / G3 are not supported</value>
-    <comment>Menu133</comment>
   </data>
   <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
     <value>229, 6</value>
@@ -7517,11 +7390,9 @@ Jazyk
   </data>
   <data name="rotaryDimaeterToolStripMenuItem.Text" xml:space="preserve">
     <value>Rotary diameter</value>
-    <comment>Menu132</comment>
   </data>
   <data name="rotaryDimaeterToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>Set Diameter of part for rotary axis</value>
-    <comment>Menu132</comment>
   </data>
   <data name="toolStrip_tb_X_A_scale.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
@@ -7537,11 +7408,9 @@ Jazyk
   </data>
   <data name="skaliereXAufDrehachseToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale X to ...° (Rotary axis)</value>
-    <comment>Menu133</comment>
   </data>
   <data name="skaliereXAufDrehachseToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>G2 / G3 are not supported</value>
-    <comment>Menu133</comment>
   </data>
   <data name="toolStrip_tb_Y_A_scale.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
@@ -7557,11 +7426,9 @@ Jazyk
   </data>
   <data name="skaliereYAufDrehachseToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale Y to ...° (Rotary axis)</value>
-    <comment>Menu133</comment>
   </data>
   <data name="skaliereYAufDrehachseToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>G2 / G3 are not supported</value>
-    <comment>Menu133</comment>
   </data>
   <data name="toolStripSeparator15.Size" type="System.Drawing.Size, System.Drawing">
     <value>229, 6</value>
@@ -7580,54 +7447,46 @@ Jazyk
   </data>
   <data name="toolStrip_RadiusComp.Text" xml:space="preserve">
     <value>Radius compensation</value>
-    <comment>Menu133</comment>
   </data>
   <data name="ersetzteG23DurchLinienToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>232, 22</value>
   </data>
   <data name="ersetzteG23DurchLinienToolStripMenuItem.Text" xml:space="preserve">
     <value>Replace G2/3 by lines</value>
-    <comment>Menu134</comment>
   </data>
   <data name="convertZToSspindleSpeedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>232, 22</value>
   </data>
   <data name="convertZToSspindleSpeedToolStripMenuItem.Text" xml:space="preserve">
     <value>Convert Z to S (spindle speed)</value>
-    <comment>Menu134</comment>
   </data>
   <data name="convertZToSspindleSpeedToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>Set maximum Spindle speed for minimum Z in 
 [Setup - Graphics import - G-Code modification]</value>
-    <comment>Menu134</comment>
   </data>
   <data name="removeAnyZMoveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>232, 22</value>
   </data>
   <data name="removeAnyZMoveToolStripMenuItem.Text" xml:space="preserve">
     <value>Remove any Z move</value>
-    <comment>Menu134</comment>
   </data>
   <data name="gCodeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>116, 20</value>
   </data>
   <data name="gCodeToolStripMenuItem.Text" xml:space="preserve">
     <value>G-Code T&amp;ransform</value>
-    <comment>Menu13</comment>
   </data>
   <data name="probingToolLengthToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>214, 22</value>
   </data>
   <data name="probingToolLengthToolStripMenuItem.Text" xml:space="preserve">
     <value>Probing / Tool length</value>
-    <comment>Menu141</comment>
   </data>
   <data name="surfaceScanHeightMapToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>214, 22</value>
   </data>
   <data name="surfaceScanHeightMapToolStripMenuItem.Text" xml:space="preserve">
     <value>Surface scan / Height map</value>
-    <comment>Menu142</comment>
   </data>
   <data name="jogPathCreatorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>214, 22</value>
@@ -7643,14 +7502,12 @@ Jazyk
   </data>
   <data name="workpieceToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Workpiece</value>
-    <comment>Menu14</comment>
   </data>
   <data name="edgeFinderToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 22</value>
   </data>
   <data name="edgeFinderToolStripMenuItem.Text" xml:space="preserve">
     <value>Probing</value>
-    <comment>Menu14</comment>
   </data>
   <data name="edgeFinderToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -7660,7 +7517,6 @@ Jazyk
   </data>
   <data name="heightMapToolStripMenuItem.Text" xml:space="preserve">
     <value>Surface scan</value>
-    <comment>Menu141</comment>
   </data>
   <data name="heightMapToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -7670,7 +7526,6 @@ Jazyk
   </data>
   <data name="laserToolsToolStripMenuItem.Text" xml:space="preserve">
     <value>Laser tools</value>
-    <comment>Menu141</comment>
   </data>
   <data name="laserToolsToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>Tool to find best laser settings</value>
@@ -7680,7 +7535,6 @@ Jazyk
   </data>
   <data name="coordinateSystemsToolStripMenuItem.Text" xml:space="preserve">
     <value>Coordinate Systems</value>
-    <comment>Menu141</comment>
   </data>
   <data name="coordinateSystemsToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>Check and control  all grbl coordinates</value>
@@ -7690,22 +7544,18 @@ Jazyk
   </data>
   <data name="setupToolStripMenuItem.Text" xml:space="preserve">
     <value>DIY control</value>
-    <comment>Menu141</comment>
   </data>
   <data name="setupToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>Setup GUI and import parameters</value>
-    <comment>Menu141</comment>
   </data>
   <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 22</value>
   </data>
   <data name="toolStripMenuItem1.Text" xml:space="preserve">
     <value>Show Camera</value>
-    <comment>Menu141</comment>
   </data>
   <data name="toolStripMenuItem1.ToolTipText" xml:space="preserve">
     <value>Show camera picture</value>
-    <comment>Menu141</comment>
   </data>
   <data name="toolStrip_tb_StreamLine.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
@@ -7718,7 +7568,6 @@ Jazyk
   </data>
   <data name="toolStrip_tb_StreamLine.ToolTipText" xml:space="preserve">
     <value>Marked line</value>
-    <comment>ToolTip</comment>
   </data>
   <data name="startStreamingAtLineToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 22</value>
@@ -7728,7 +7577,6 @@ Jazyk
   </data>
   <data name="startStreamingAtLineToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>Set start line here if G-Code must not start at line  0</value>
-    <comment>2DView_Menu</comment>
   </data>
   <data name="startStreamingAtLineToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -7738,22 +7586,18 @@ Jazyk
   </data>
   <data name="controlStreamingToolStripMenuItem.Text" xml:space="preserve">
     <value>Control Streaming</value>
-    <comment>Menu142</comment>
   </data>
   <data name="controlStreamingToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>Override Feed rate and Spindle speed</value>
-    <comment>Menu142</comment>
   </data>
   <data name="control2ndGRBLToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 22</value>
   </data>
   <data name="control2ndGRBLToolStripMenuItem.Text" xml:space="preserve">
     <value>Control 2nd GRBL</value>
-    <comment>Menu142</comment>
   </data>
   <data name="control2ndGRBLToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>Opens a simple window to control a second GRBL controller</value>
-    <comment>Menu142</comment>
   </data>
   <data name="control3rdGRBLToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 22</value>
@@ -7784,50 +7628,42 @@ Jazyk
   </data>
   <data name="machineToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Machine control</value>
-    <comment>Menu14</comment>
   </data>
   <data name="toolStripViewRuler.Size" type="System.Drawing.Size, System.Drawing">
     <value>176, 22</value>
   </data>
   <data name="toolStripViewRuler.Text" xml:space="preserve">
     <value>Ruler</value>
-    <comment>Menu151</comment>
   </data>
   <data name="toolStripViewInfo.Size" type="System.Drawing.Size, System.Drawing">
     <value>176, 22</value>
   </data>
   <data name="toolStripViewInfo.Text" xml:space="preserve">
     <value>Info</value>
-    <comment>Menu151</comment>
   </data>
   <data name="toolStripViewPenUp.Size" type="System.Drawing.Size, System.Drawing">
     <value>176, 22</value>
   </data>
   <data name="toolStripViewPenUp.Text" xml:space="preserve">
     <value>Pen-Up path</value>
-    <comment>Menu151</comment>
   </data>
   <data name="toolStripViewMachineFix.Size" type="System.Drawing.Size, System.Drawing">
     <value>176, 22</value>
   </data>
   <data name="toolStripViewMachineFix.Text" xml:space="preserve">
     <value>Fixed Machine area</value>
-    <comment>Menu151</comment>
   </data>
   <data name="toolStripViewMachineFix.ToolTipText" xml:space="preserve">
     <value>Limit and offset can be set via 'Setup' - 'Control' -  'Maschine area'</value>
-    <comment>Menu151</comment>
   </data>
   <data name="toolStripViewMachine.Size" type="System.Drawing.Size, System.Drawing">
     <value>176, 22</value>
   </data>
   <data name="toolStripViewMachine.Text" xml:space="preserve">
     <value>Machine limits</value>
-    <comment>Menu151</comment>
   </data>
   <data name="toolStripViewMachine.ToolTipText" xml:space="preserve">
     <value>Limit and offset can be set via 'Setup' - 'Control' -  'Maschine area'</value>
-    <comment>Menu151</comment>
   </data>
   <data name="toolStripViewDimension.Size" type="System.Drawing.Size, System.Drawing">
     <value>176, 22</value>
@@ -7840,32 +7676,27 @@ Jazyk
   </data>
   <data name="toolStripViewTool.Text" xml:space="preserve">
     <value>Tool table</value>
-    <comment>Menu151</comment>
   </data>
   <data name="toolStripViewTool.ToolTipText" xml:space="preserve">
     <value>Limit and offset can be set via 'Setup' - 'Tool change setup' -  'Tool table'</value>
-    <comment>Menu151</comment>
   </data>
   <data name="toolStripViewBackground.Size" type="System.Drawing.Size, System.Drawing">
     <value>176, 22</value>
   </data>
   <data name="toolStripViewBackground.Text" xml:space="preserve">
     <value>Background</value>
-    <comment>Menu151</comment>
   </data>
   <data name="viewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 20</value>
   </data>
   <data name="viewToolStripMenuItem.Text" xml:space="preserve">
     <value>View</value>
-    <comment>Menu15</comment>
   </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 20</value>
   </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;About</value>
-    <comment>Menu16</comment>
   </data>
   <data name="logToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>39, 20</value>
@@ -7912,6 +7743,21 @@ Jazyk
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <metadata name="MainTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>126, 21</value>
+  </metadata>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>660, 17</value>
+  </metadata>
+  <metadata name="gamePadTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>233, 17</value>
+  </metadata>
+  <metadata name="simulationTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>521, 17</value>
+  </metadata>
+  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>223, 56</value>
+  </metadata>
   <data name="toolStripStatusLabel0.Size" type="System.Drawing.Size, System.Drawing">
     <value>576, 17</value>
   </data>
@@ -7948,6 +7794,18 @@ Jazyk
   <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <metadata name="SplashScreenTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>367, 17</value>
+  </metadata>
+  <metadata name="loadTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>103</value>
+  </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
@@ -8483,6 +8341,12 @@ Jazyk
     <value>franzToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;franzToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;italianoToolStripMenuItem.Name" xml:space="preserve">
+    <value>italianoToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;italianoToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;czechToolStripMenuItem.Name" xml:space="preserve">
@@ -9031,62 +8895,10 @@ Jazyk
   <data name="&gt;&gt;loadTimer.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;italianoToolStripMenuItem.Name" xml:space="preserve">
-    <value>italianoToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;italianoToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="toolStripMenuItem3.Text" xml:space="preserve">
-    <value />
-    <comment>Menu117</comment>
-  </data>
-  <data name="cBServoButtons.Text" xml:space="preserve">
-    <value />
-  </data>
-  <metadata name="cmsFCTB.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>123, 56</value>
-  </metadata>
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>800, 17</value>
-  </metadata>
-  <metadata name="cmsPictureBox.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>339, 56</value>
-  </metadata>
-  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="MainTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>126, 21</value>
-  </metadata>
-  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>660, 17</value>
-  </metadata>
-  <metadata name="gamePadTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>233, 17</value>
-  </metadata>
-  <metadata name="simulationTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>521, 17</value>
-  </metadata>
-  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>223, 56</value>
-  </metadata>
-  <metadata name="SplashScreenTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>367, 17</value>
-  </metadata>
-  <metadata name="loadTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 56</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>103</value>
-  </metadata>
 </root>

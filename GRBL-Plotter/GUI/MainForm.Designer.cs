@@ -393,6 +393,7 @@ namespace GrblPlotter
             this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.portuguêsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.franzToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.italianoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.czechToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.chinesischToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.arabischToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -485,7 +486,6 @@ namespace GrblPlotter
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.SplashScreenTimer = new System.Windows.Forms.Timer(this.components);
             this.loadTimer = new System.Windows.Forms.Timer(this.components);
-            this.italianoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -2122,6 +2122,7 @@ namespace GrblPlotter
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.ContextMenuStrip = this.cmsPictureBox;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.pictureBox1.Image = global::GrblPlotter.Properties.Resources.INKJET_PLOTTER_1;
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             this.pictureBox1.SizeChanged += new System.EventHandler(this.PictureBox1_SizeChanged);
@@ -2734,6 +2735,12 @@ namespace GrblPlotter
             this.franzToolStripMenuItem.Name = "franzToolStripMenuItem";
             resources.ApplyResources(this.franzToolStripMenuItem, "franzToolStripMenuItem");
             this.franzToolStripMenuItem.Click += new System.EventHandler(this.FranzToolStripMenuItem_Click);
+            // 
+            // italianoToolStripMenuItem
+            // 
+            this.italianoToolStripMenuItem.Name = "italianoToolStripMenuItem";
+            resources.ApplyResources(this.italianoToolStripMenuItem, "italianoToolStripMenuItem");
+            this.italianoToolStripMenuItem.Click += new System.EventHandler(this.ItalianToolStripMenuItem_Click);
             // 
             // czechToolStripMenuItem
             // 
@@ -3372,12 +3379,6 @@ namespace GrblPlotter
             // loadTimer
             // 
             this.loadTimer.Tick += new System.EventHandler(this.LoadTimer_Tick);
-            // 
-            // italianoToolStripMenuItem
-            // 
-            this.italianoToolStripMenuItem.Name = "italianoToolStripMenuItem";
-            resources.ApplyResources(this.italianoToolStripMenuItem, "italianoToolStripMenuItem");
-            this.italianoToolStripMenuItem.Click += new System.EventHandler(this.ItalianToolStripMenuItem_Click);
             // 
             // MainForm
             // 
